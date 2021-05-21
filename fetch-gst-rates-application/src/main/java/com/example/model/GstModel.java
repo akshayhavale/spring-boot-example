@@ -15,15 +15,18 @@ import lombok.Setter;
 @NoArgsConstructor
 public class GstModel {
 
-	public String code;
-	public String name;
-	@JsonProperty("SGST Rate (%)")
-	public String sGSTRate;
-	@JsonProperty("CGST Rate (%)")
-	public String cGSTRate;
-	@JsonProperty("IGST Rate (%)")
-	public String iGSTRate;
-	@JsonProperty("UTGST Rate (%)")
-	public String uTGSTRate;
+    public String code;
+    public String name;
+    @JsonProperty("SGST Rate (%)") 
+    public String sGSTRate;
+    @JsonProperty("CGST Rate (%)") 
+    public String cGSTRate;
+    @JsonProperty("IGST Rate (%)") 
+    public String iGSTRate;
+    @JsonProperty("UTGST Rate (%)") 
+    public String uTGSTRate;
+    @JsonProperty("Comments") 
+    public String comments;
+    public String undefined;
 
 }
